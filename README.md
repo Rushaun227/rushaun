@@ -1,175 +1,194 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ffirst Clothing</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f5f5f5;
-    }
-    header {
-      background-color: #111;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    nav {
-      background-color: #333;
-      display: flex;
-      justify-content: center;
-    }
-    nav a {
-      color: white;
-      padding: 14px 20px;
-      text-decoration: none;
-    }
-    nav a:hover {
-      background-color: #555;
-    }
-    .section {
-      padding: 40px 20px;
-    }
-    .product-grid {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      gap: 20px;
-    }
-    .product {
-      background: white;
-      padding: 20px;
-      border-radius: 8px;
-      width: 250px;
-      text-align: center;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    .reviews {
-      background-color: #fff;
-      padding: 20px;
-      border-top: 1px solid #ccc;
-    }
-    .review {
-      margin-bottom: 20px;
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 10px;
-    }
-    footer {
-      text-align: center;
-      background: #111;
-      color: white;
-      padding: 10px;
-    }
-    form {
-      display: flex;
-      flex-direction: column;
-      max-width: 400px;
-      margin: 0 auto;
-    }
-    input, textarea {
-      padding: 10px;
-      margin-bottom: 10px;
-    }
-  </style>
-</head>
-<body>
+# 🤖 227 Bot
 
-<header>
-  <h1>ffirst Clothing</h1>
-  <p>Fashion made bold. Style that speaks.</p>
-</header>
+This is a WhatsApp bot built using the Baileys library for group management, including features like tagging all members, muting/unmuting, and many more. It's designed to help admins efficiently manage WhatsApp groups.
 
-<nav>
-  <a href="#men">Men</a>
-  <a href="#women">Women</a>
-  <a href="#accessories">Accessories</a>
-  <a href="#reviews">Reviews</a>
-  <a href="#contact">Contact</a>
-</nav>
+<div align="center"> 
+  <a href="https://git.io/typing-svg"> 
+    <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=Knight-Bot;Multi+Device+Whatsapp+Bot;Coded+By+Professor" alt="Typing SVG" />
+  </a> 
+</div> 
 
-<section class="section" id="men">
-  <h2>Men's Collection</h2>
-  <div class="product-grid">
-    <div class="product">
-      <h3>Classic Denim Jacket</h3>
-      <p>$65.00</p>
-    </div>
-    <div class="product">
-      <h3>Black Graphic Tee</h3>
-      <p>$30.00</p>
-    </div>
-    <div class="product">
-      <h3>Jogger Pants</h3>
-      <p>$45.00</p>
-    </div>
-  </div>
-</section>
+<div align="center"> 
+  <a href="https://youtube.com/@mr_unique_hacker"> 
+    <img src="https://github.com/mruniquehacker/Knightbot-MD/blob/main/assets/bot_image.jpg" alt="227 Bot" height="300"> 
+  </a> 
+</div>
 
-<section class="section" id="women">
-  <h2>Women's Collection</h2>
-  <div class="product-grid">
-    <div class="product">
-      <h3>Crop Hoodie</h3>
-      <p>$40.00</p>
-    </div>
-    <div class="product">
-      <h3>High-Waisted Jeans</h3>
-      <p>$55.00</p>
-    </div>
-    <div class="product">
-      <h3>Summer Dress</h3>
-      <p>$50.00</p>
-    </div>
-  </div>
-</section>
+---
 
-<section class="section" id="accessories">
-  <h2>Accessories</h2>
-  <div class="product-grid">
-    <div class="product">
-      <h3>Beanie Hat</h3>
-      <p>$15.00</p>
-    </div>
-    <div class="product">
-      <h3>Crossbody Bag</h3>
-      <p>$35.00</p>
-    </div>
-    <div class="product">
-      <h3>Leather Belt</h3>
-      <p>$25.00</p>
-    </div>
-  </div>
-</section>
+## 🚀 Steps to Deploy
 
-<section class="section reviews" id="reviews">
-  <h2>What Our Customers Say</h2>
-  <div class="review">
-    <strong>Alex M.</strong> - "The quality is top-notch and delivery was super fast!"
-  </div>
-  <div class="review">
-    <strong>Samantha R.</strong> - "Love my new crop hoodie. Can't wait to buy more from ffirst!"
-  </div>
-  <div class="review">
-    <strong>Jordan K.</strong> - "Trendy and affordable. This brand is going places."
-  </div>
-</section>
+### Step 1: Fork the Repository
 
-<section class="section" id="contact">
-  <h2>Contact Us</h2>
-  <form>
-    <input type="text" placeholder="Your Name" required>
-    <input type="email" placeholder="Your Email" required>
-    <textarea rows="5" placeholder="Your Message"></textarea>
-    <input type="submit" value="Send Message">
-  </form>
-</section>
+Click the button below to fork the Knight Bot repository to your GitHub account:
 
-<footer>
-  <p>&copy; 2025 ffirst Clothing. All rights reserved.</p>
-</footer>
+<div align="center">
+  <a href="https://github.com/mruniquehacker/Knightbot-MD/fork">
+    <img src="https://img.shields.io/badge/Fork-Repository-blue?style=for-the-badge" alt="Fork the repository"/>
+  </a>
+</div>
 
-</body>
-</html>
+---
+
+### Step 2: Get Pair Code
+
+Deploy the bot and easily connect it to your WhatsApp account by pair code. Click the button below to deploy the bot on Replit.
+
+<div align="center">
+  <a href="https://replit.com/@DGXeon/Xeon-PairCode?v=1" target="_blank">
+    <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-Replit-success?style=for-the-badge" alt="Deploy on Replit"/>
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://knight-bot-paircode.onrender.com" target="_blank">
+    <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-Easy%20Method-ff4d4d?style=for-the-badge" alt="Generate Pair Code"/>
+  </a>
+</div>
+
+
+### After getting creds.json file, upload it to session folder
+
+---
+
+### Step 3: Deploy Now
+
+For further customization and setup guidance, click the button below:
+
+<div align="center">
+  <a href="https://youtu.be/dDyiEHF8rIQ">
+    <img src="https://img.shields.io/badge/Deploy Tutorial-dc3545?style=for-the-badge&logo=youtube" alt="YouTube Link"/>
+  </a>
+  <a href="https://bot-hosting.net/?aff=1068419752923508776">
+    <img src="https://img.shields.io/badge/Deploy on Panel-28a745?style=for-the-badge" alt="Deploy on Panel"/>
+  </a>
+</div>
+
+
+### Deploy Now on Below Panel
+<div align="center">
+<a href="https://dashboard.katabump.com/auth/login#d6b7d6" target="_blank">
+  <img src="https://img.shields.io/badge/Katabump-D6B7D6?style=for-the-badge&logo=server&logoColor=black" alt="Katabump"/>
+</a>
+</div>
+
+### Join Us
+
+<div align="center">
+  <a href="https://t.me/+3QhFUZHx-nhhZmY1">
+    <img src="https://img.shields.io/badge/Join%20Telegram-0078E7?style=for-the-badge&logo=telegram&logoColor=white" alt="Join Telegram"/>
+  </a>
+  <a href="https://whatsapp.com/channel/0029Va90zAnIHphOuO8Msp3A">
+    <img src="https://img.shields.io/badge/Join%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Join WhatsApp"/>
+  </a>
+</div>
+
+---
+
+## ⚙️ Features
+
+- **Tag all group members** with the `.tagall` command
+- **Admin restricted usage** (Only group admins can use certain commands)
+- **Games** like Tic-Tac-Toe for interactive group engagement
+- **Text-to-Speech** with `.tts`
+- **Sticker creation** with `.sticker`
+- **Anti-link detection** for group safety
+- **Warn and manage group members** with admin control
+
+---
+
+## 📖 About
+
+The Knight WhatsApp Bot assists group admins by providing them with tools to efficiently manage large WhatsApp groups. The bot uses the Baileys library to interact with the WhatsApp Web API and supports multi-device features.
+
+It is lightweight and can be easily customized to add more commands as per your requirements. The bot runs in a Node.js environment and provides QR code-based authentication to link your WhatsApp account.
+
+---
+
+## 🛠️ Setup & Installation
+
+### Prerequisites
+
+- Node.js installed on your system
+- Git installed (for cloning the repository)
+
+### Step-by-Step Setup
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/mruniquehacker/Knightbot-MD.git
+    cd Knightbot-MD
+    ```
+
+2. **Install the dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+3. **Run the bot:**
+
+    ```bash
+    node index.js
+    ```
+
+4. **Scan the QR code:**
+
+    Once the bot starts, a QR code will appear in the terminal. Scan this QR code using the Linked Devices feature in WhatsApp to connect your WhatsApp account with the bot.
+
+---
+
+
+## 📄 License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](https://github.com/mruniquehacker/Knightbot-MD/blob/main/LICENSE) file for details.
+
+---
+
+## 🙌 Contributions
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/mruniquehacker/Knightbot-MD/issues).
+
+---
+
+## 🌟 Show your support
+
+If you like this project, please give it a [⭐️ star on GitHub](https://github.com/mruniquehacker/Knightbot)!
+
+
+## Credits
+
+- [Professor](https://github.com/Rushaun227)
+- [Baileys](https://github.com/adiwajshing/Baileys)
+- [TechGod143](https://github.com/TechGod143) for pair code
+- [Dgxeon](https://github.com/Dgxeon) for pair code
+
+---
+
+## ⚠️ Important Warning
+
+**Note:** This bot is created for educational purposes only. This is NOT an official WhatsApp bot. Using this bot may lead to your WhatsApp account being banned. Use it at your own risk. The developers will not be responsible for any consequences or account bans that may occur while using this bot.
+
+## 📝 Legal
+
+- This project is not affiliated with, authorized, maintained, sponsored or endorsed by WhatsApp or any of its affiliates or subsidiaries.
+- This is an independent and unofficial software. Use at your own risk.
+- Do not spam people with this bot.
+- Do not use this bot to send bulk messages or for illegal purposes.
+- The developers assume no liability and are not responsible for any misuse or damage caused by this program.
+
+### License
+This project is licensed under the MIT License. However, you must:
+- Use this software in compliance with all applicable laws and regulations
+- Include original license and copyright notices
+- Credit original authors
+- Not use for spam or malicious purposes
+
+## 📜 Copyright Notice
+
+Copyright (c) 2024 Rushaun. All rights reserved.
+
+This project contains code from various open source projects:
+- Baileys (MIT License)
+- Other libraries as listed in package.json
